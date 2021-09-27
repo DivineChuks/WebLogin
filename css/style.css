@@ -1,0 +1,98 @@
+body {
+  background-color: #252525 !important;
+  overflow: hidden !important;
+}
+
+a {
+  text-decoration: underline !important;
+  color: white !important;
+}
+
+.fa-eye {
+  position: absolute;
+  right: 12%;
+  top: 53%;
+  cursor: pointer;
+}
+
+.background {
+  background-image: url('../images/imgpsh_fullsize_anim.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.form-container {
+  margin-left: 70px;
+  overflow-x: hidden !important;
+}
+
+.form-control::placeholder {
+  color: white !important;
+}
+
+.welcome {
+  margin-left: -20px;
+  overflow-x: hidden !important;
+}
+.excel {
+  margin-top: 8px;
+  margin-left: 85px;
+}
+
+#form {
+  padding: 30px 20px;
+  overflow-x: hidden !important;
+}
+
+.login {
+  padding: 7px 45px !important;
+  border-radius: 0px !important;
+  font-weight: 400 !important;
+}
+
+.form-control {
+  background-color: transparent !important;
+  border: 0px !important;
+  border-radius: 0px !important;
+  border-bottom: 1px solid white !important;
+  color: white !important;
+}
+.data {
+  font-size: 15px !important;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: none;
+    background-color: #252525 !important;
+    overflow: hidden !important;
+  }
+
+  .register {
+    margin-left: 60px;
+  }
+
+  .excel {
+    margin-top: 20px;
+    overflow-x: hidden;
+  }
+
+  .form-container {
+    margin-left: 20px;
+    overflow-x: hidden !important;
+  }
+
+  .background {
+    display: none;
+  }
+
+  .fa-eye {
+    position: absolute;
+    right: 12%;
+    top: 53%;
+    /* color: white; */
+    cursor: pointer;
+  }
+}
